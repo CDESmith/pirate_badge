@@ -3,8 +3,10 @@
 
 import 'package:angular2/core.dart';
 
+import 'badge_component.dart';
+
 @Component(
     selector: 'my-app',
-    styleUrls: const ['app_component.css'],
-    templateUrl: 'app_component.html')
+    templateUrl: 'app_component.html',
+    directives: const [BadgeComponent])
 class AppComponent {}
